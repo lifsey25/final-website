@@ -1,0 +1,36 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+/* Index page */
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/* Joke 1 page */
+body.joke1-page {
+    background-color: #FFE4E1;    /* Misty rose */
+    color: #8B4513;               /* Saddle brown */
+}
+
+/* Joke 2 page */
+body.joke2-page {
+    background-color: #E0FFFF;    /* Light cyan */
+    color: #4B0082;               /* Indigo */
+}
+
+/* Joke 3 page */
+body.joke3-page {
+    background-color: #F0FFF0;    /* Honeydew */
+    color: #2F4F4F;               /* Dark slate gray */
+}
